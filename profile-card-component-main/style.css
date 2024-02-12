@@ -6,8 +6,11 @@
 
 body{
     color: hsl(229, 23%, 23%);
-    font-family: 'Kumbh Sans', sans-serif;
     background-color:hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    font-family: 'Kumbh Sans', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -100,45 +103,9 @@ main>img{
     color: hsl(0, 0%, 59%);
 }
 
-.top{
-    position: absolute;
-    z-index: -1;
-    top: -400px;
-    left: -200px;
-    width: 800px;
-}
 
-.bottom{
-    z-index: -1;
-    position: absolute;
-    bottom: -400px;
-    right: -200px;
-    width: 800px;
-    
-}
 
 @media screen and (max-width:376px){
-    .top{
-        
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0px;
-        width: 230px;
-        transform: rotate(90deg);
-    }
-    
-    .bottom{
-        
-        z-index: -1;
-        position: absolute;
-        bottom: 40px;
-        right: 0px;
-        width: 230px;
-       
-        
-    }
-
 
     main{
         height: 50vh;
@@ -153,28 +120,6 @@ main>img{
 
 
 @media screen and (min-width:377px) and (max-width:539px){
-    .top{
-        
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0px;
-        width: 260px;
-        transform: rotate(90deg);
-    }
-    
-    .bottom{
-        
-        z-index: -1;
-        position: absolute;
-        bottom: 0;
-        right: 0px;
-        width: 260px;
-       
-        
-    }
-
-
     main{
         height: 50vh;
         width: 70vw;
@@ -188,28 +133,6 @@ main>img{
 
 
 @media screen and (min-width:540px) and (max-width:540px){
-    .top{
-        
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0px;
-        width: 260px;
-        transform: rotate(90deg);
-    }
-    
-    .bottom{
-        
-        z-index: -1;
-        position: absolute;
-        bottom: 0;
-        right: 0px;
-        width: 260px;
-       
-        
-    }
-
-
     main{
         height: 50vh;
         width: 70vw;
@@ -267,20 +190,6 @@ main>img{
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1280px){
-    .top{
-        top: 0;
-        left: 0px;
-        width: 500px;  
-    }
-    
-    .bottom{
-        bottom: 0;
-        right: 0px;
-        width: 500px;
-        
-    } 
 
-}
 
 
