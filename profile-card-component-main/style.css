@@ -27,6 +27,7 @@ main{
     align-items: center;
     height: 60vh;
     border-radius: 10px;
+    box-shadow: 2px 2px 30px 3px rgba(5, 4, 4, 0.557);
 }
 
 ul{
